@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+// Main colors
+$primary-color: #e50914;
+$primary-dark: #141414;
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Arial", sans-serif;
+  --webkit-font-smoothing: antialiased;
+  background: #000;
+  color: #999;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #fff;
+}
+p {
+  margin: 0.5rem 0;
+}
+img {
+  width: 100%;
+}
